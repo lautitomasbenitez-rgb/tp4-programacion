@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion de Turnos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Gestion de Turnos</h1>
+
+    <button id="btnPausa">Pausar Entrada</button>
+
+    <div id="panelEntrada">
+        <input type="text" id="nombreInput" placeholder="Ingrese nombre">
+        <button id="btnAnotar">Anotar</button>
+        <button id="btnAtender">Atender Siguiente</button>
+        <button id="btnReiniciar">Reiniciar Día</button>
+    </div>
+
+    <div id="visor">
+        <h2>Atendiendo:</h2>
+        <p id="clienteActual">---</p>
+    </div>
+
+    <h3>En espera: <span id="contador">0</span></h3>
+
+    <ul id="lista"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
